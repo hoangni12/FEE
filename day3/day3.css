@@ -1,0 +1,333 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  .chri {
+    .fa-church {
+      color: red;
+    }
+  }
+  ul {
+    display: flex;
+    gap: 20px;
+    .li3 {
+      color: red;
+    }
+  }
+}
+.me {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  padding: 20px;
+  margin-top: 20px;
+  gap: 50px;
+  align-items: center;
+  .merry {
+    h3 {
+      font-size: 60px;
+    }
+    p {
+      font-size: 20px;
+      color: darkgray;
+      margin-top: 20px;
+    }
+    button {
+      border-radius: 15px;
+      background-color: red;
+      color: aliceblue;
+      padding: 10px 30px;
+      margin-top: 20px;
+      border: none;
+    }
+  }
+}
+.start {
+  width: 70%;
+  margin: auto;
+  margin-top: 20px;
+  h3 {
+    text-align: center;
+    font-size: 30px;
+  }
+  .sur {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    .box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+
+    p {
+      color: darkgray;
+      text-align: center;
+    }
+  }
+}
+.cele {
+  width: 70%;
+  margin: auto;
+  padding: 30px;
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  .wi {
+    h3 {
+      font-size: 30px;
+    }
+    p {
+      font-size: 20px;
+      color: darkgray;
+      margin-top: 20px;
+    }
+    button {
+      padding: 10px 30px;
+      border-radius: 20px;
+      background-color: red;
+      color: aliceblue;
+      border: none;
+      margin-top: 20px;
+    }
+  }
+}
+.share {
+  width: 60%;
+  margin: auto;
+  margin-top: 20px;
+  padding: 50px;
+  h3 {
+    text-align: center;
+    font-size: 30px;
+  }
+  .gift {
+    margin-top: 30px;
+    display: grid;
+    gap: 30px;
+    .box {
+      position: relative;
+      padding: 30px;
+      border-radius: 30px;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      .fa-heart {
+        color: red;
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        font-size: 20px;
+      }
+      p {
+        color: darkgray;
+        margin-top: 5px;
+      }
+      h5 {
+        font-size: 20px;
+      }
+    }
+  }
+}
+.new {
+  width: 70%;
+  margin: auto;
+  padding: 30px;
+  h3 {
+    text-align: center;
+    font-size: 30px;
+  }
+  .gift {
+    margin-top: 50px;
+    display: flex;
+    gap: 60px;
+    .gift1 {
+      padding-bottom: 20px;
+      flex: 1;
+      border-radius: 20px;
+      position: relative;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      .gift-img {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: red;
+        border-radius: 20px;
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+        img {
+          width: 80%;
+        }
+      }
+
+      p {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 20px;
+        color: darkgray;
+      }
+      .p1 {
+        font-size: 20px;
+        color: black;
+      }
+      .he {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: red;
+        width: 30px;
+        height: 30px;
+        border-radius: 5px;
+
+        .fa-heart {
+          color: white;
+        }
+      }
+    }
+  }
+}
+.send {
+  margin: auto;
+  width: 70%;
+  margin-top: 30px;
+  padding: 30px 10%;
+  border-radius: 20px;
+  background-color: red;
+  display: grid;
+  gap: 7%;
+  .se {
+    h3 {
+      color: aliceblue;
+      font-size: 60px;
+    }
+    input {
+      margin-top: 40px;
+      width: 100%;
+      background-color: aliceblue;
+      color: darkgray;
+      padding: 20px;
+      border-radius: 30px;
+      border: none;
+    }
+    button {
+      margin-top: 20px;
+      color: aliceblue;
+      background-color: dimgray;
+      border-radius: 30px;
+      padding: 20px 40px;
+      border: none;
+    }
+  }
+}
+footer {
+  position: relative;
+  padding: 30px 15% 20px;
+  margin: auto;
+  margin-top: 30px;
+  .ch {
+    display: flex;
+    justify-content: space-between;
+    .mas {
+      .ma {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        img {
+          width: 30px;
+          height: 30px;
+        }
+      }
+      h5 {
+        font-size: 20px;
+      }
+      p {
+        margin-top: 20px;
+        font-size: 20px;
+        color: darkgrey;
+      }
+      .snow {
+        margin-top: 30px;
+      }
+    }
+  }
+  p {
+    text-align: center;
+    color: darkgray;
+  }
+  .pic {
+    position: absolute;
+    right: 100px;
+    bottom: 100px;
+  }
+}
+/*tablet tro len*/
+@media screen and (min-width: 769px) {
+  header {
+    .fa-bars-progress {
+      display: none;
+    }
+  }
+  .me {
+    grid-template-columns: 1fr 1fr;
+  }
+  .share {
+    .gift {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+.send{
+  grid-template-columns: 1fr 1fr;
+}
+}
+/* mobile*/
+@media screen and (max-width: 768px) {
+  header {
+    li {
+      display: none;
+    }
+  }
+  .me {
+    grid-template-columns: 1fr;
+  }
+  .start {
+    .sur {
+      justify-content: start;
+      flex-wrap: wrap;
+      .box {
+        width: calc(100% / 2 - 10px);
+      }
+    }
+  }
+  .cele {
+    flex-direction: column;
+  }
+  .new {
+    .gift {
+      flex-direction: column;
+    }
+  }
+.share{
+  .gift{
+  grid-template-columns: 1fr 1fr;
+}
+}
+.send{
+  grid-template-columns: 1fr;
+}
+}
