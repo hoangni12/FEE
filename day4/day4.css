@@ -1,0 +1,353 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+li {
+  list-style: none;
+}
+header {
+  color: aliceblue;
+  padding: 30px 10% 150px;
+  background-image: url(./img/anh\ cf.jpg);
+  background-size: 100% 100%;
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    h3 {
+      color: aliceblue;
+    }
+    ul {
+      display: flex;
+      gap: 20px;
+      li {
+        transition: color 1s ease-in-out;
+        &:hover{
+          color: chocolate;
+        }
+      }
+    }
+    .ico {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: aliceblue;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: none;
+      .fa-sistrix {
+        color: black;
+      }
+    }
+  }
+  h6 {
+    margin-top: 100px;
+    font-size: 20px;
+  }
+  h3 {
+    margin-top: 10px;
+    font-size: 40px;
+  }
+  p {
+    margin-top: 10px;
+  }
+  button {
+    margin-top: 30px;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 20px;
+  }
+}
+.hot {
+  padding: 30px;
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+  .coffee {
+    text-align: center;
+    align-items: center;
+  }
+  .fa-mug-hot {
+    font-size: 40px;
+    color: aliceblue;
+    transition-property: color,transform;
+    transition-duration: 1s; 
+    transition-timing-function: ease-in;
+    &:hover{
+      color: chocolate;
+      transform: translateY(-10px) scale(1.5) rotate(45deg);
+    }
+  }
+  p {
+    margin-top: 10px;
+    font-size: 20px;
+    color: darkgrey;
+  }
+}
+.or {
+  margin: auto;
+  padding: 20px;
+  width: 70%;
+  h2 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+  }
+  .co {
+    margin-top: 20px;
+    display: grid;
+    gap: 30px;
+    animation: ni 1s ease-in;
+
+    .cof {
+      border-radius: 10px;
+      padding: 10px;
+      background-color: antiquewhite;
+      position: relative;
+      .fa-heart {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        color: white;
+        .cof-img {
+          width: 80%;
+          height: 80%;
+        }
+      }
+      h4 {
+        font-size: 20px;
+        margin-top: 10px;
+      }
+      h6 {
+        font-size: 20px;
+      }
+      .bu {
+        margin-top: 10px;
+        display: flex;
+        gap: 30px;
+        justify-content: space-between;
+        align-items: center;
+      }
+      button {
+        color: aliceblue;
+        background-color: black;
+        border-radius: 5px;
+        padding: 10px 20px;
+      }
+    }
+  }
+}
+.ec {
+  background-color: antiquewhite;
+  margin: auto;
+  margin-top: 40px;
+  display: grid;
+  gap: 40px;
+  .eck {
+    margin-top: 50px;
+  }
+  h4 {
+    font-size: 30px;
+  }
+  button {
+    margin-top: 20px;
+    color: aliceblue;
+    font-size: 20px;
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px 20px;
+  }
+}
+.cometotal {
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+  h4 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .comethree {
+    margin-top: 30px;
+    display: grid;
+    gap: 40px;
+    animation: nini 1s ease-in;
+  }
+  .comeone {
+    background-color: antiquewhite;
+    border-radius: 20px;
+    padding: 20px;
+    .jarandstar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .jarandpic {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+      }
+    }
+    p {
+      margin-top: 10px;
+    }
+  }
+  .fa-star {
+    color: gold;
+  }
+  .fa-star-half-stroke {
+    color: burlywood;
+  }
+  .dot {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    .fa-circle {
+      color: black;
+      font-size: 10px;
+    }
+    .hi {
+      color: grey;
+    }
+  }
+}
+.coffee3 {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: antiquewhite;
+  .join {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h3 {
+      font-size: 30px;
+      margin-top: 30px;
+    }
+    p {
+      margin-top: 10px;
+    }
+    .inputandbutton {
+      margin-top: 20px;
+      display: flex;
+      gap: 20px;
+      .inbutandemail {
+        position: relative;
+        .iconandemail {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          left: 10px;
+        }
+      }
+      input {
+        padding: 10px;
+        border-radius: 40px;
+      }
+      button {
+        border-radius: 40px;
+        padding: 10px;
+        color: aliceblue;
+        background-color: black;
+      }
+    }
+  }
+}
+footer {
+  padding: 40px 10% 40px;
+  color: aliceblue;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  .box {
+    h3 {
+      font-size: 30px;
+    }
+    p {
+      margin-top: 10px;
+    }
+  }
+  .box6 {
+    .icon {
+      display: flex;
+      gap: 10px;
+      margin-top: 10px;
+    }
+  }
+}
+/* tablet*/
+@media screen and (min-width: 768px) {
+  header {
+    .fa-bars-progress {
+      display: none;
+    }
+  }
+  .co{
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .ec{
+     grid-template-columns: 1fr 2fr 1fr;
+  }
+  .comethree{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+
+}
+
+/* mobile*/
+@media screen and (max-width: 767px) {
+  header {
+    nav {
+      li {
+        display: none;
+      }
+    }
+  
+  }
+  .co{
+     grid-template-columns: 1fr 1fr;
+  }
+  .ec{
+     grid-template-columns: 1fr;
+    .eck{
+      display: flex;
+      flex-direction: column;
+       justify-content: center;
+     align-items: center;
+     padding: 10px;
+     margin: 0;
+    }
+  }
+
+}
+
+@keyframes ni {
+  from{
+    opacity: 0;
+    transform: translateY(300%);
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes nini {
+  from{
+    opacity: 0;
+    transform: translateY(300%);
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
